@@ -24,13 +24,10 @@
 	ui = true
 [core]
 	quotepath = false
-	excludesfile = /Users/brado/.gitignore
+	excludesfile = ~/.gitignore
 	editor = vim --noplugin
 [push]
 	default = current
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
-[user]
-	email = bolson@americanbible.org
-	name = bradobro
