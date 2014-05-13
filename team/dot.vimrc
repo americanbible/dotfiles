@@ -61,8 +61,8 @@ Bundle 'vim-ruby/vim-ruby'
 
 set t_Co=256
 
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set number
 set showcmd
@@ -71,6 +71,7 @@ set smartcase       " Case insensitive searches become sensitive with capitals
 set smarttab        " sw at the start of the line, sts everywhere else
 set visualbell
 set nowrap
+set clipboard=unnamed
 
 "#ejs
 au BufNewFile,BufRead *.ejs set filetype=html
