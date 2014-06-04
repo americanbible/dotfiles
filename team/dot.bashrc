@@ -33,8 +33,8 @@ export LC_CTYPE=UTF-8
 source ~/aliases.txt
 
 # source extra user configurations if they exists (user paths, aliases, etc.)
-source_if_exists "$HOME/.bashrc_user"
-source_if_exists "$HOME/aliases_user.txt"
+source_if_exists "$HOME/.bashrc_local"
+source_if_exists "$HOME/aliases_local.txt"
 
 # source common tools if they exist
 source_if_exists "$HOME/.rvm/scripts/rvm"
