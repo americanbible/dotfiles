@@ -30,7 +30,7 @@ export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LC_CTYPE=UTF-8
 
-source ~/aliases.txt
+source ~/.aliases
 
 # source extra user configurations if they exists (user paths, aliases, etc.)
 source_if_exists "$HOME/.bashrc_local"
