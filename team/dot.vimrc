@@ -23,42 +23,42 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 "----let Vundle manage Vundle
-Bundle 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 
 "----our experimental bundles
 
-" Bundle 'Lokaltog/vim-easymotion'
-" Bundle 'altercation/vim-colors-solarized'
+" Plugin 'Lokaltog/vim-easymotion'
+" Plugin 'altercation/vim-colors-solarized'
 
 "----team bundles
-Bundle 'bling/vim-airline'
-Bundle 'bronson/vim-trailing-whitespace'
-Bundle 'chriskempson/base16-vim'
-Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'garbas/vim-snipmate'
-Bundle 'honza/vim-snippets'
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'kana/vim-textobj-user'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'kien/ctrlp.vim'
-Bundle 'majutsushi/tagbar'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'nelstrom/vim-textobj-rubyblock'
-Bundle 'pangloss/vim-javascript'
-Bundle 'Raimondi/delimitMate'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
-Bundle 'terryma/vim-multiple-cursors'
-Bundle 'tomtom/tlib_vim'
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-sensible'
-Bundle 'tpope/vim-surround'
-Bundle 'vim-ruby/vim-ruby'
-
+" Plugin 'bling/vim-airline'
+Plugin 'bronson/vim-trailing-whitespace'
+" Plugin 'chriskempson/base16-vim'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'kana/vim-textobj-user'
+" Plugin 'kchmck/vim-coffee-script'
+Plugin 'kien/ctrlp.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'pangloss/vim-javascript'
+Plugin 'Raimondi/delimitMate'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tomtom/tlib_vim'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-haml'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'flazz/vim-colorschemes'
 set t_Co=256
 
 set tabstop=4
@@ -76,12 +76,12 @@ set clipboard=unnamed
 "#ejs
 au BufNewFile,BufRead *.ejs set filetype=html
 
-let g:airline_powerline_fonts = 1
-let g:airline_theme             = 'bubblegum'
+"let g:airline_powerline_fonts = 1
+"let g:airline_theme             = 'bubblegum'
 "let g:airline_enable_branch     = 1
 "let g:airline#extensions#syntastic#enabled = 1
-let g:airline#extensions#whitespace#enabled = 0
-let g:airline_section_x = airline#section#create([""])
+"let g:airline#extensions#whitespace#enabled = 0
+"let g:airline_section_x = airline#section#create([""])
 "let g:airline_section_y = airline#section#create([""])
 
 "open files with ctrl-p in tab by default

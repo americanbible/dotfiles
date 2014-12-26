@@ -9,7 +9,7 @@ def main
   link_new files, options
   install_tools options
   puts "\nIMPORTANT: Put your git user info in path = ~/.gitconfig_user."
-  puts "IMPORTANT: run :BundleInstall in vim."
+  puts "IMPORTANT: run :PluginInstall in vim."
 end
 
 def get_options
